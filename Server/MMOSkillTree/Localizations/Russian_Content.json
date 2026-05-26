@@ -1,0 +1,9 @@
+{
+  "Id": "Russian_Content",
+  "Payload": {
+    "language": "ru",
+    "messages": {
+      "achievement.category.quests": "Квесты"
+    }
+  }
+}

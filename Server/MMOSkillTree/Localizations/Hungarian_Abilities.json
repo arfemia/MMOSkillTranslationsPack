@@ -1,0 +1,12 @@
+{
+  "Id": "Hungarian_Abilities",
+  "Payload": {
+    "language": "hu",
+    "messages": {
+      "ability.armed": "{0} előkészítve — a következő találatod erősebb lesz.",
+      "ability.armed_consumed.fallback": "Megerősített találat",
+      "ability.marked": "{0} alkalmazva! A következő találatok bónusz sebzést okoznak.",
+      "ability.aura_armed": "{0} {1} szövetségest buzdított — a következő találatuk megerősítve."
+    }
+  }
+}

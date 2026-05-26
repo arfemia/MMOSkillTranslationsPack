@@ -1,0 +1,12 @@
+{
+  "Id": "Spanish_Abilities",
+  "Payload": {
+    "language": "es",
+    "messages": {
+      "ability.armed": "{0} preparado — tu próximo golpe será potenciado.",
+      "ability.armed_consumed.fallback": "Golpe potenciado",
+      "ability.marked": "¡{0} aplicado! Los golpes siguientes causarán daño extra.",
+      "ability.aura_armed": "{0} reunió a {1} aliado(s) — su próximo golpe está potenciado."
+    }
+  }
+}

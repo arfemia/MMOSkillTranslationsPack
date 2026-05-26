@@ -1,0 +1,9 @@
+{
+  "Id": "Hungarian_Content",
+  "Payload": {
+    "language": "hu",
+    "messages": {
+      "achievement.category.quests": "Küldetések"
+    }
+  }
+}

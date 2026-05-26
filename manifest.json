@@ -1,0 +1,18 @@
+{
+  "Group": "Ziggfreed",
+  "Name": "MMOSkillTranslationsPack",
+  "Version": "1.0.0",
+  "Description": "Community-maintained translations for the MMO Skill Tree mod. Ships Spanish, French, German, Italian, Portuguese, Russian, Hungarian, and Turkish out of the box; designed so anyone can fork this pack to contribute a new language without touching the main mod.",
+  "Authors": [
+    {
+      "Name": "ZiggFreed"
+    }
+  ],
+  "Website": "https://mmo-skill-tree-docs.ziggfreed.com/",
+  "ServerVersion": ">=0.5.0-pre.0 <0.6.0",
+  "IncludesAssetPack": true,
+  "Dependencies": {},
+  "OptionalDependencies": {
+    "Ziggfreed:MMOSkillTree": "^1.1.7"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Id": "French_Content",
+  "Payload": {
+    "language": "fr",
+    "messages": {
+      "achievement.unlocked": "Succès débloqué : {0}",
+      "achievement.points_awarded": "+{0} points de succès",
+      "achievement.point_milestone_claimed": "Palier atteint : {0} ({1} points)",
+      "achievement.point_milestone_unlocked": "Palier atteint : {0} ({1} points) - récompenses prêtes !",
+      "achievement.hidden": "???",
+      "achievement.progress": "{0} / {1}",
+      "achievement.category.combat": "Combat",
+      "achievement.category.gathering": "Récolte",
+      "achievement.category.crafting": "Artisanat",
+      "achievement.category.leveling": "Niveaux",
+      "achievement.category.exploration": "Exploration",
+      "achievement.category.quests": "Quêtes",
+      "achievement.category.misc": "Miscellaneous",
+      "quest.requires_achievement": "Débloquer le succès : {0}",
+      "achievement.server_first_lost": "Server First lost for {0} — another player claimed it.",
+      "achievement.server_first_won": "You won Server First: {0}!"
+    }
+  }
+}

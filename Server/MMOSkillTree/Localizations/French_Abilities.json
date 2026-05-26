@@ -1,0 +1,12 @@
+{
+  "Id": "French_Abilities",
+  "Payload": {
+    "language": "fr",
+    "messages": {
+      "ability.armed": "{0} armé — votre prochain coup sera amplifié.",
+      "ability.armed_consumed.fallback": "Coup amplifié",
+      "ability.marked": "{0} appliqué ! Les coups suivants infligeront des dégâts bonus.",
+      "ability.aura_armed": "{0} a rallié {1} allié(s) — leur prochain coup est amplifié."
+    }
+  }
+}

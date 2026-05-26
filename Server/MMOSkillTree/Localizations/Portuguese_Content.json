@@ -1,0 +1,9 @@
+{
+  "Id": "Portuguese_Content",
+  "Payload": {
+    "language": "pt",
+    "messages": {
+      "achievement.category.quests": "Missões"
+    }
+  }
+}

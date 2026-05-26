@@ -1,0 +1,9 @@
+{
+  "Id": "Turkish_Content",
+  "Payload": {
+    "language": "tr",
+    "messages": {
+      "achievement.category.quests": "Görevler"
+    }
+  }
+}
