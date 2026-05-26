@@ -12,7 +12,7 @@ Players pick their language via the in-game settings menu, and every UI page, sk
 
 So the community can contribute.
 
-The translations live in plain JSON files. Anyone can fork the [GitHub repo](https://github.com/...), edit a value, and open a pull request. Adding a brand-new language is as simple as dropping a new JSON file in.
+The translations live in plain JSON files. Anyone can fork the [GitHub repo](https://github.com/arfemia/MMOSkillTranslationsPack), edit a value, and open a pull request. Adding a brand-new language is as simple as dropping a new JSON file in.
 
 The main mod stays small and English-only; this pack carries the translation work that benefits from many eyes.
 

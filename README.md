@@ -19,7 +19,7 @@ English ships inside the main mod jar — install the mod, you get English; inst
 
 ## Install (server admins)
 
-1. Download `MMOSkillTranslationsPack.zip` from the [releases page](https://github.com/...) (or the CurseForge listing).
+1. Download `MMOSkillTranslationsPack.zip` from the [releases page](https://github.com/arfemia/MMOSkillTranslationsPack/releases) (or the CurseForge listing).
 2. Drop the zip into your Hytale server's `UserData/Mods/` folder.
 3. Restart the server.
 4. Confirm via the server log: `[Localizations] Merged N pack asset(s) covering 8 language(s)`.
