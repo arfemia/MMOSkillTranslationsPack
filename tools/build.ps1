@@ -19,11 +19,16 @@ Remove-Item $zipPath -ErrorAction SilentlyContinue
 Add-Type -A 'System.IO.Compression.FileSystem'
 $zip = [IO.Compression.ZipFile]::Open($zipPath, 'Create')
 
-$excludeNames = @('MMOSkillTranslationsPack.zip', 'README.md', 'CURSEFORGE.md', 'CLAUDE.md')
-$files = Get-ChildItem -Path $pack -Recurse -File | Where-Object {
+$excludeNames = @(
+    'MMOSkillTranslationsPack.zip',  # the built artifact itself
+    'README.md', 'CURSEFORGE.md', 'CLAUDE.md',  # repo docs, not for players
+    'LICENSE', '.gitignore'  # repo metadata
+)
+$files = Get-ChildItem -Path $pack -Recurse -File -Force | Where-Object {
     $_.Name -notin $excludeNames -and
     $_.FullName -notlike "$pack\tools\*" -and
-    $_.FullName -notlike "$pack\.git\*"
+    $_.FullName -notlike "$pack\.git\*" -and
+    $_.FullName -notlike "$pack\.github\*"
 }
 
 foreach ($f in $files) {
