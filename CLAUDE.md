@@ -1,6 +1,6 @@
 # CLAUDE.md — MMOSkillTranslationsPack
 
-This directory is a standalone Hytale content pack that ships translations for the [hyMMO plugin](../). The plugin's jar no longer ships any `*Defaults.java` for non-English languages — they live here as JSON, contributable by the community.
+This directory is a standalone Hytale content pack that ships translations for the [MMOSkillTree mod](https://www.curseforge.com/hytale/mmoskilltree). The mod's jar no longer ships any `*Defaults.java` for non-English languages — they live here as JSON, contributable by the community.
 
 English stays baked into the mod jar (`EnglishDefaults.java`) as the authoritative reference + per-key fallback for every other language.
 
