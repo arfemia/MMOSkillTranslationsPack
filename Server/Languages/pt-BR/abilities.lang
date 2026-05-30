@@ -1,0 +1,12 @@
+# MMOSkillTranslationsPack - pt-BR (abilities)
+# Auto-generated from v1 JSON pack by convert-json-to-lang.ps1.
+
+
+# === ability ===
+
+ability.armed = {0} preparado — seu próximo ataque será potencializado.
+ability.armed_consumed.fallback = Ataque potencializado
+ability.marked = {0} aplicado! Ataques subsequentes causarão dano bônus.
+ability.aura_armed = {0} reuniu {1} aliado(s) — o próximo ataque deles é potencializado.
+
+# 4 keys total.

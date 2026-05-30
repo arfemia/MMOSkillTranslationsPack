@@ -1,0 +1,12 @@
+# MMOSkillTranslationsPack - ru-RU (abilities)
+# Auto-generated from v1 JSON pack by convert-json-to-lang.ps1.
+
+
+# === ability ===
+
+ability.armed = {0} заряжено — ваш следующий удар будет усилен.
+ability.armed_consumed.fallback = Усиленный удар
+ability.marked = {0} применено! Последующие удары нанесут бонусный урон.
+ability.aura_armed = {0} сплотил {1} союзников — их следующий удар усилен.
+
+# 4 keys total.

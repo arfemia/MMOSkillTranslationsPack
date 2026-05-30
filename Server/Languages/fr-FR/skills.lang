@@ -1,0 +1,131 @@
+# MMOSkillTranslationsPack - fr-FR (skills)
+# Auto-generated from v1 JSON pack by convert-json-to-lang.ps1.
+
+
+# === reward ===
+
+reward.preview.locked = VERROUILLÉ
+reward.preview.requires_level = Niv {0}
+reward.preview.unlocks_at = Débloqué au niveau {0}
+reward.preview.tooltip_quantity = x{0}
+
+# === skill ===
+
+skill.mining = Minage
+skill.woodcutting = Bûcheronnage
+skill.excavation = Excavation
+skill.harvesting = Récolte
+skill.fishing = Pêche
+skill.swords = Épées
+skill.daggers = Dagues
+skill.polearms = Lances
+skill.staves = Bâtons
+skill.axes = Haches
+skill.blunt = Contondants
+skill.archery = Archerie
+skill.unarmed = Mains Nues
+skill.defense = Blocage
+skill.taming = Dressage
+skill.acrobatics = Acrobaties
+skill.crafting = Artisanat
+skill.repair = Réparation
+skill.alchemy = Alchimie
+skill.enchanting = Enchantement
+skill.cooking = Cuisine
+skill.smithing = Forge
+skill.building = Construction
+
+# === reward ===
+
+reward.stat_health = Santé Max
+reward.stat_damage = Dégâts
+reward.stat_defense = Blocage
+reward.stat_speed = Vitesse
+reward.stat_stamina = Endurance Max
+reward.stat_mana = Mana Max
+reward.luck = Chance
+reward.bonus_xp = Bonus XP
+reward.critical_chance = Chance Critique
+reward.lifesteal = Vol de Vie
+reward.combo_damage = Dégâts Combo %
+reward.dodge_counterattack = Contre-attaque d'Esquive
+reward.knockback_resistance = Résist. Recul
+reward.haste = Hâte
+reward.fortune = Fortune
+reward.vein_miner = Mineur de Veine
+reward.fall_damage_reduction = Réduc. Chute
+reward.effect_duration = Durée des Effets
+reward.cooldown_reduction = Réduc. Recharge
+reward.parry_counterattack = Contre-attaque Parade
+reward.parry_reflect = Réflexion Parade
+reward.parry_stamina_drain = Drain Endurance Parade
+reward.parry_stun_damage = Dégâts Étourdissement Parade
+reward.health_regen = Régén. Santé
+reward.mana_regen = Régén. Mana
+reward.format.percent = +{0}%
+reward.format.flat = +{0}
+reward.format.blocks = +{0} blocs
+reward.xp_suffix = XP
+reward.luck_suffix = Chance
+reward.desc.stat_health = Augmente la santé max de {0}
+reward.desc.stat_damage = Inflige {0}% de dégâts supplémentaires
+reward.desc.stat_defense = Bloque {0}% des dégâts reçus
+reward.desc.stat_speed = Augmente la vitesse de déplacement de {0}%
+reward.desc.stat_stamina = Augmente l'endurance max de {0}
+reward.desc.stat_mana = Augmente le mana max de {0}
+reward.desc.health_regen = Régénère {0}% de santé max par seconde
+reward.desc.mana_regen = Régénère {0}% de mana max par seconde
+reward.desc.bonus_xp = Gagne {0}% d'XP en plus en {1}
+reward.desc.luck = {0}% de chance bonus pour {1}
+reward.desc.critical_chance = {0}% de chance de coup critique
+reward.desc.lifesteal = Récupère {0}% des dégâts infligés en vie
+reward.desc.combo_damage = Inflige {0}% de dégâts supplémentaires aux coups finaux de combo
+reward.desc.knockback_resistance = Réduit le recul de {0}%
+reward.desc.haste = Augmente la vitesse de récolte de {0}%
+reward.desc.fortune = {0}% de chance de drops bonus
+reward.desc.vein_miner = Casse jusqu'à {0} blocs connectés du même type
+reward.desc.fall_damage_reduction = Réduit les dégâts de chute de {0}%
+reward.desc.effect_duration = Les effets durent {0}% plus longtemps
+reward.desc.cooldown_reduction = Réduit les temps de recharge de {0}%
+reward.desc.parry_counterattack = Augmente les dégâts de contre-attaque de {0}%
+reward.desc.parry_reflect = Réfléchit {0}% des dégâts bloqués
+reward.desc.parry_stamina_drain = Réduit la perte d'endurance sur parade de {0}%
+reward.desc.parry_stun_damage = Inflige {0}% de dégâts bonus aux ennemis étourdis
+reward.desc.with_target = " avec {0}"
+reward.short.stat_health = +{0} PV
+reward.short.stat_stamina = +{0} END
+reward.short.stat_mana = +{0} MANA
+reward.short.stat_damage = +{0}% DÉG
+reward.short.stat_defense = +{0}% BLOC
+reward.short.critical_chance = +{0}% CRIT
+reward.short.lifesteal = +{0}% VOL
+reward.short.luck = +{0}% CHANCE
+reward.short.fall_damage_reduction = -{0}% CHUTE
+reward.short.parry_counterattack = +{0}% PARADE
+reward.short.parry_reflect = +{0}% REFL
+reward.short.parry_stamina_drain = +{0}% DRAIN
+reward.short.parry_stun_damage = +{0}% ÉTOUR
+reward.short.health_regen = +{0}% PV/s
+reward.short.mana_regen = +{0}% MP/s
+reward.cape.mining = Mining Mastery Cape
+reward.cape.woodcutting = Woodcutting Mastery Cape
+reward.cape.excavation = Excavation Mastery Cape
+reward.cape.harvesting = Harvesting Mastery Cape
+reward.cape.swords = Swords Mastery Cape
+reward.cape.daggers = Daggers Mastery Cape
+reward.cape.polearms = Polearms Mastery Cape
+reward.cape.staves = Staves Mastery Cape
+reward.cape.axes = Axes Mastery Cape
+reward.cape.blunt = Blunt Mastery Cape
+reward.cape.archery = Archery Mastery Cape
+reward.cape.unarmed = Unarmed Mastery Cape
+reward.cape.defense = Block Mastery Cape
+reward.cape.acrobatics = Acrobatics Mastery Cape
+reward.cape.crafting = Crafting Mastery Cape
+reward.cape.building = Building Mastery Cape
+reward.cape.fishing = Fishing Mastery Cape
+reward.cape.magic = Magic Mastery Cape
+reward.cape.artillery = Artillery Mastery Cape
+reward.cape.master = Master Cape
+
+# 117 keys total.

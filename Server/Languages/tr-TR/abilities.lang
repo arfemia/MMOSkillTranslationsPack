@@ -1,0 +1,12 @@
+# MMOSkillTranslationsPack - tr-TR (abilities)
+# Auto-generated from v1 JSON pack by convert-json-to-lang.ps1.
+
+
+# === ability ===
+
+ability.armed = {0} hazır — sonraki vuruşunuz güçlendirilecek.
+ability.armed_consumed.fallback = Güçlendirilmiş Vuruş
+ability.marked = {0} uygulandı! Sonraki vuruşlar bonus hasar verecek.
+ability.aura_armed = {0} {1} müttefiki harekete geçirdi — sonraki vuruşları güçlendirildi.
+
+# 4 keys total.

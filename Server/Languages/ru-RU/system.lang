@@ -1,0 +1,221 @@
+# MMOSkillTranslationsPack - ru-RU (system)
+# Auto-generated from v1 JSON pack by convert-json-to-lang.ps1.
+
+
+# === language ===
+
+language.name = Русский
+
+# === notify ===
+
+notify.xp_gain = +{0} {1} Опыта
+notify.xp_gain_bonus = +{0} {1} Опыта (+{2}% бонус)
+notify.level_up = НОВЫЙ УРОВЕНЬ! {0} теперь Уровень {1}!
+notify.first_skill_gain = Вы начали тренировать {0}!
+notify.first_skill_hint = Введите /xp для просмотра прогресса и наград
+notify.tip_prefix = Совет: {0}
+notify.tip_view_progress = Введите /mmoxp для просмотра прогресса!
+notify.mob_drop = Mob Drop!
+notify.mob_drop.hint = You received a special drop
+notify.reward_unlocked = Новая награда {0} разблокирована! Введите /xp
+notify.rewards_available = Нов{1} наград{1} {0} доступн{1}!
+notify.rewards_hint = Введите /xp для просмотра и получения наград
+notify.reward_claimed = Награда {0} получена: {1}
+notify.rewards_reset = Награды {0} были сброшены
+notify.rewards_reset_hint = Вы можете выбрать новые награды
+notify.skill_tree_reset = Все выборы наград дерева навыков сброшены!
+notify.item_reward_available = Награды предметов {0} Ур.{1} доступны! Откройте /xp > Награды
+notify.item_reward_available_total = Награды Общ. Ур.{0} доступны! Откройте /xp > Награды
+notify.critical_hit = КРИТ! {0}
+notify.lifesteal = Вампиризм +{0}
+notify.defense_blocked = Заблокировано {0}
+notify.fall_reduced = Куворок -{0}
+notify.item_requirement_not_met = Требуется: {0}
+notify.tool_requirement_not_met = Требуется инструмент: {0}
+notify.weapon_requirement_not_met = Требуется оружие: {0}
+
+# === category ===
+
+category.gathering = Навыки Сбора
+category.combat = Боевые Навыки
+category.crafting = Навыки Создания
+category.misc = Разные Навыки
+
+# === combat_target ===
+
+combat_target.all = Весь Бой
+combat_target.melee = Ближний Бой
+combat_target.ranged = Дальний Бой
+combat_target.magic = Магия
+combat_target.swords = Мечи
+combat_target.daggers = Кинжалы
+combat_target.polearms = Древковое
+combat_target.staves = Посохи
+combat_target.axes = Топоры
+combat_target.blunt = Дробящее
+combat_target.archery = Стрельба из Лука
+combat_target.unarmed = Без Оружия
+
+# === cmd ===
+
+cmd.language_reloaded = Языковые файлы перезагружены
+cmd.only_players = Эту команду могут использовать только игроки.
+cmd.no_permission = У вас нет прав на эту команду.
+cmd.setxp.no_permission_others = У вас нет прав устанавливать опыт другим игрокам.
+cmd.setxp.player_not_found = Игрок не найден или не в этом мире: {0}
+cmd.setxp.no_skill_data = Нет данных о навыках для {0}. Нужно сначала поиграть.
+cmd.setxp.xp_negative = Значение опыта должно быть неотрицательным.
+cmd.setxp.unknown_skill = Неизвестный навык: {0}
+cmd.setxp.available_skills = Доступные навыки: {0}
+cmd.setxp.success_all = Все навыки установлены на {0} опыта.
+cmd.setxp.success_all_target = Все навыки установлены на {0} опыта для {1}.
+cmd.setxp.success_skill = {0} установлен на {1} опыта.
+cmd.setxp.success_skill_target = {0} установлен на {1} опыта для {2}.
+cmd.setxp.rewards_revoked = {0} наград отозвано (уровень слишком низкий).
+cmd.config.header_xp_overrides = === Переопределения Опыта ===
+cmd.config.header_luck_overrides = === Переопределения Удачи ===
+cmd.config.header_skill_xp = === Карта Опыта {0} ===
+cmd.config.header_skill_overrides = " ({0} переопр.)"
+cmd.config.no_overrides = Нет переопределений — используются значения по умолчанию
+cmd.config.see_reference = См. папку _reference/ для значений по умолчанию
+cmd.config.disabled = ОТКЛЮЧЕНО
+cmd.config.default_was = (по умолч.: {0})
+cmd.config.custom = (пользоват.)
+cmd.config.override_indicator = [переопр., умолч.: {0}]
+cmd.config.no_entries = (нет записей)
+cmd.config.tip_diff = Совет: Используйте /mmoconfig diff для просмотра переопределений
+cmd.config.diff.pattern_disabled = {0}: ОТКЛЮЧЕНО
+cmd.config.diff.pattern_override = {0}: {1} Опыта (умолч.: {2})
+cmd.config.diff.pattern_custom = {0}: {1} Опыта (пользоват.)
+cmd.config.diff.luck_disabled = {0}: ОТКЛЮЧЕНО
+cmd.config.diff.luck_override = {0} -> {1} (умолч.: {2})
+cmd.config.diff.luck_custom = {0} -> {1} (пользоват.)
+cmd.config.trim.removed = Удалено {0} избыточных переопределений
+cmd.config.trim.clean = Избыточных переопределений не найдено
+cmd.config.disable.success = Отключено {0} '{1}' (было: {2})
+cmd.config.disable.success_custom = Отключено {0} '{1}'
+cmd.config.disable.no_xp = Этот паттерн больше не даёт опыт
+cmd.config.disable.no_luck = Этот паттерн больше не даёт дроп удачи
+cmd.config.reset.to_default = Сброшено {0} '{1}' к умолчанию: {2}
+cmd.config.reset.removed = Удалён пользовательский паттерн {0} '{1}'
+cmd.config.set.success = Установлено {0} опыта для '{1}': {2}
+cmd.config.set.luck_success = Установлен дроп удачи для '{0}': {1}
+cmd.config.reload.success = Все конфигурации перезагружены
+cmd.config.reload.defaults = Все конфигурации сброшены к умолчанию
+cmd.config.reload.revoked = Отозвано {0} наград у онлайн-игроков
+
+# === time ===
+
+time.days_short = д
+time.hours_short = ч
+time.minutes_short = м
+
+# === notify ===
+
+notify.boost_activated = Активирован буст {0}x {1} Опыта на {2} минут!
+notify.boost_activated_global = {0} активировал глобальный буст {1}x {2} Опыта!
+
+# === boost ===
+
+boost.target.all_skills = Все Навыки
+
+# === notify ===
+
+notify.boost_expired = Ваш буст {0}x {1} Опыта истёк.
+notify.boost_expired_global = Глобальный буст {0}x {1} Опыта истёк.
+notify.boost_on_cooldown = Этот буст на перезарядке. Доступно через {0}.
+notify.token_received = Вы получили токен буста {0}x {1} Опыта ({2} мин)! Откройте Бусты.
+notify.command_reward_received = Награда разблокирована для {0} Уровень {1}!
+notify.tokens_delivered = У вас {0} ожидающих токенов буста!
+notify.ability_armed_consumed = {0}! x{1}
+
+# === cmd ===
+
+cmd.boost.usage = Использование: /mmoboost <give|global|list|clear|status> (исп. | между арг.)
+cmd.boost.give_usage = Исп.: /mmoboost give|<игрок|*>|<навык|категория|all>|<множ.>|<мин>|[область]
+cmd.boost.global_usage = Исп.: /mmoboost global|<навык|категория|all>|<множитель>|<минуты>
+cmd.boost.given = Выдан буст {0}x {1} Опыта игроку {2} на {3} минут.
+cmd.boost.given_all = Выдан буст {0}x {1} Опыта всем онлайн-игрокам на {2} минут.
+cmd.boost.token_given = Токен буста {0}x {1} Опыта выдан {2} ({3}м, {4}).
+cmd.boost.token_given_all = Токены {1}x {2} Опыта ({3}м, {4}) выданы {0} игрокам.
+cmd.boost.global_activated = Глобальный буст {0}x {1} Опыта активирован на {2} минут.
+cmd.boost.cleared = Бусты и токены очищены для {0}.
+cmd.boost.cleared_global = Все глобальные бусты очищены.
+cmd.boost.list_header = Активные Глобальные Бусты:
+cmd.boost.list_empty = Нет активных глобальных бустов.
+cmd.boost.list_entry = "  {0}x {1} Опыта - {2} осталось (от {3})"
+cmd.boost.status_header = Статус бустов для {0}:
+cmd.boost.status_active = "  Активно: {0}x {1} Опыта - {2} осталось"
+cmd.boost.status_token = "  Токен: {0}"
+cmd.boost.status_none = "  Нет активных бустов или токенов"
+cmd.boost.no_permission = У вас нет прав на эту команду.
+cmd.boost.player_not_found = Игрок не найден: {0}
+cmd.boost.invalid_target = Неверная цель. Укажите навык, категорию или 'all'.
+cmd.boost.invalid_multiplier = Неверный множитель. Должно быть положительное число.
+cmd.boost.invalid_duration = Неверная длительность. Должно быть положительное целое (минуты).
+
+# === boost ===
+
+boost.limit.global_full = Лимит глобальных бустов достигнут ({0}/{1})
+boost.limit.personal_full = Лимит личных бустов достигнут ({0}/{1})
+
+# === notify ===
+
+notify.xptoken.consumed_flat = {0} использован — +{1} {2} опыта!
+notify.xptoken.consumed_boost = {0} использован — {1}x {2} буст опыта активирован на {3} минут!
+notify.xptoken.consumed_boost_global = {0} использован — {1}x {2} глобальный буст опыта активирован на {3} минут!
+notify.xptoken.disabled = Токены опыта в настоящее время отключены.
+notify.xptoken.boost_limit = Невозможно активировать — лимит бустов достигнут.
+notify.xptoken.not_recognized = Этот токен не удалось распознать.
+notify.quest_objective_complete = Цель выполнена: {0}
+notify.quest_objective_progress = {0} ({1}/{2})
+notify.quest_complete = Квест завершен: {0}!
+notify.quest_rewards_delivered = Вы получили {0} наград(u) за квест!
+notify.quest_ready_to_claim = Квест завершен: {0}! Откройте страницу Квестов, чтобы получить награды.
+notify.quest_inventory_full = Квест завершен: {0}! Освободите место в инвентаре, чтобы получить награды.
+notify.quest_turn_in = Сдано {0}/{1} {2}
+
+# === cmd ===
+
+cmd.playerquest.usage = Использование: /quest <accept|claim|abandon|status> [questId]
+cmd.playerquest.accept_usage = Использование: /quest accept <questId>
+cmd.playerquest.claim_usage = Использование: /quest claim <questId|all>
+cmd.playerquest.abandon_usage = Использование: /quest abandon <questId>
+cmd.playerquest.accept_success = Квест принят: {0}
+cmd.playerquest.claim_success = Награды получены за: {0}
+cmd.playerquest.claim_all_success = Награды получены за {0} квест(ов)!
+cmd.playerquest.abandon_success = Квест отменен: {0}
+cmd.playerquest.quest_not_found = Квест не найден: {0}
+cmd.playerquest.cannot_accept = Невозможно принять квест: {0}
+cmd.playerquest.not_claimable = Квест не готов к получению: {0}
+cmd.playerquest.not_active = Квест не активен: {0}
+cmd.playerquest.nothing_to_claim = Нет квестов для получения.
+cmd.playerquest.no_quest_data = Данные квестов не найдены.
+cmd.playerquest.status_header = === Ваши Квесты ===
+cmd.playerquest.status_none = Нет активных квестов.
+cmd.playerquest.status_active = Активный
+cmd.playerquest.status_unclaimed = Готов к получению
+cmd.playerquest.status_completed = Завершен
+cmd.quest.usage = Использование: /mmoquestadmin <reload|list|give|reset|complete|status> [args]
+cmd.quest.no_permission = Вам нужно разрешение админа для этой команды.
+cmd.quest.reload_success = Конфиг квестов перезагружен: {0} квестов загружено.
+cmd.quest.list_header = === Квесты ===
+cmd.quest.no_quests = Нет загруженных квестов.
+cmd.quest.quest_not_found = Квест не найден: {0}
+cmd.quest.player_not_found = Игрок не найден: {0}
+cmd.quest.no_quest_data = Нет данных квестов для {0}
+cmd.quest.give_usage = Использование: /mmoquestadmin give <игрок|*>|<questId>
+cmd.quest.give_success = Квест ''{0}'' начат для {1} игроков.
+cmd.quest.give_success_player = Квест ''{0}'' начат для {1}
+cmd.quest.give_failed = Не удалось получить данные квеста для {0}
+cmd.quest.reset_usage = Использование: /mmoquestadmin reset <игрок>|<questId|all>
+cmd.quest.reset_all = Все квесты сброшены для {0}
+cmd.quest.reset_success = Квест ''{0}'' сброшен для {1}
+cmd.quest.complete_usage = Использование: /mmoquestadmin complete <игрок>|<questId>
+cmd.quest.complete_success = Квест ''{0}'' завершен для {1} (награды выданы)
+cmd.quest.complete_offline = Игрок ''{0}'' оффлайн. {1} наград(a) в очереди на доставку при подключении.
+cmd.quest.status_usage = Использование: /mmoquestadmin status <игрок> [questId]
+cmd.quest.status_header = === Статус Квестов: {0} ===
+cmd.quest.status_none = Нет данных квестов.
+
+# 177 keys total.
