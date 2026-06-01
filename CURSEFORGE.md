@@ -1,6 +1,6 @@
 # MMO Skill Translations Pack
 
-Community translations for the **MMO Skill Tree** mod - Spanish, French, German, Italian, Portuguese, Russian, Hungarian, Turkish.
+Community translations for the **MMO Skill Tree** mod — Spanish, French, German, Italian, Portuguese, Russian, Hungarian, Turkish.
 
 ## What is it?
 
@@ -12,7 +12,7 @@ Players pick their language via the in-game settings menu, and every UI page, sk
 
 So the community can contribute.
 
-The translations live in plain `.lang` files - one of Hytale's two officially supported i18n formats. Anyone can fork the [GitHub repo](https://github.com/arfemia/MMOSkillTranslationsPack), edit a value, and open a pull request. Adding a brand-new language is as simple as dropping a new directory of `.lang` files in.
+The translations live in plain `.lang` files, Hytale's standard localization format. Anyone can fork the [GitHub repo](https://github.com/arfemia/MMOSkillTranslationsPack), edit a value, and open a pull request. Adding a brand-new language is as simple as dropping a new directory of `.lang` files in.
 
 The main mod stays small and English-only; this pack carries the translation work that benefits from many eyes.
 
@@ -28,7 +28,7 @@ Players can then switch languages in-game.
 
 - To customize translations for your specific server, drop a `messages-<iso>.json` file at `mods/mmoskilltree/localization/` (e.g. `messages-it.json` for Italian). Your overrides win over the pack content.
 - Run `/mmoconfig reload` after editing the owner files to pick up changes without a restart.
-- If a key is missing in your translation, it falls back to English via Hytale's own pipeline - no crashes, just a readable default.
+- If a key is missing in your translation, it falls back to English via Hytale's own pipeline. No crashes, just a readable default.
 
 ## Languages shipped
 
