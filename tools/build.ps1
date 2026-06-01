@@ -31,8 +31,26 @@ $files = Get-ChildItem -Path $pack -Recurse -File -Force | Where-Object {
     $_.FullName -notlike "$pack\.github\*"
 }
 
+# Hytale's I18nModule.loadMessagesFromPack uses Files.isDirectory(pack.getRoot()
+# .resolve("Server").resolve("Languages")) before scanning. Java's ZipFileSystem
+# returns false for that check when the zip has no explicit directory entries,
+# so we emit one for every ancestor path of each file before writing the file
+# itself. Gradle's jar builder does this automatically; the bare .NET zip API
+# does not.
+$createdDirs = @{}
 foreach ($f in $files) {
     $rel = $f.FullName.Substring($pack.Length + 1).Replace('\', '/')
+
+    $parts = $rel -split '/'
+    for ($i = 1; $i -lt $parts.Length; $i++) {
+        $dir = ($parts[0..($i - 1)] -join '/') + '/'
+        if (-not $createdDirs.ContainsKey($dir)) {
+            $dirEntry = $zip.CreateEntry($dir, [IO.Compression.CompressionLevel]::NoCompression)
+            $dirEntry.Open().Close()
+            $createdDirs[$dir] = $true
+        }
+    }
+
     $entry = $zip.CreateEntry($rel, [IO.Compression.CompressionLevel]::Optimal)
     $stream = $entry.Open()
     $bytes = [IO.File]::ReadAllBytes($f.FullName)
