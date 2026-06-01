@@ -1,8 +1,318 @@
-# MMOSkillTranslationsPack - es-ES (ui)
-# Auto-generated from v1 JSON pack by convert-json-to-lang.ps1.
+# MMOSkillTranslationsPack - es-ES
+# Consolidated translation file. Hytale's I18nModule prepends
+# 'mmoskilltree.' to every key; LocalizationConfig strips it at lookup.
 
 
-# === ui ===
+# === from abilities.lang ===
+
+ability.armed = {0} preparado — tu próximo golpe será potenciado.
+ability.armed_consumed.fallback = Golpe potenciado
+ability.marked = ¡{0} aplicado! Los golpes siguientes causarán daño extra.
+ability.aura_armed = {0} reunió a {1} aliado(s) — su próximo golpe está potenciado.
+
+# === from content.lang ===
+
+achievement.category.quests = Misiones
+
+# === from skills.lang ===
+
+reward.preview.locked = BLOQUEADO
+reward.preview.requires_level = Nv {0}
+reward.preview.unlocks_at = Desbloqueado en nivel {0}
+reward.preview.tooltip_quantity = x{0}
+skill.mining = Minería
+skill.woodcutting = Tala
+skill.excavation = Excavación
+skill.harvesting = Cosecha
+skill.fishing = Pesca
+skill.swords = Espadas
+skill.daggers = Dagas
+skill.polearms = Lanzas
+skill.staves = Bastones
+skill.axes = Hachas
+skill.blunt = Contundentes
+skill.archery = Arquería
+skill.unarmed = Desarmado
+skill.defense = Bloqueo
+skill.taming = Doma
+skill.acrobatics = Acrobacia
+skill.crafting = Fabricación
+skill.repair = Reparación
+skill.alchemy = Alquimia
+skill.enchanting = Encantamiento
+skill.cooking = Cocina
+skill.smithing = Herrería
+skill.building = Construcción
+reward.stat_health = Salud Máx
+reward.stat_damage = Daño
+reward.stat_defense = Bloqueo
+reward.stat_speed = Velocidad
+reward.stat_stamina = Energía Máx
+reward.stat_mana = Maná Máx
+reward.luck = Suerte
+reward.bonus_xp = Bonus XP
+reward.critical_chance = Prob. Crítico
+reward.lifesteal = Robo de Vida
+reward.dodge_counterattack = Contraataque de Esquiva
+reward.knockback_resistance = Resist. Retroceso
+reward.haste = Prisa
+reward.fortune = Fortuna
+reward.vein_miner = Minero de Veta
+reward.fall_damage_reduction = Reduc. Caída
+reward.effect_duration = Duración Efectos
+reward.cooldown_reduction = Reduc. Enfriamiento
+reward.parry_counterattack = Contraataque Parada
+reward.parry_reflect = Reflejo Parada
+reward.parry_stamina_drain = Drenaje Vigor Parada
+reward.parry_stun_damage = Daño Aturdimiento Parada
+reward.health_regen = Regen. Salud
+reward.mana_regen = Regen. Maná
+reward.format.percent = +{0}%
+reward.format.flat = +{0}
+reward.format.blocks = +{0} bloques
+reward.xp_suffix = XP
+reward.luck_suffix = Suerte
+reward.desc.stat_health = Aumenta la salud máxima en {0}
+reward.desc.stat_damage = Inflige {0}% más de daño
+reward.desc.stat_defense = Bloquea {0}% del daño recibido
+reward.desc.stat_speed = Aumenta la velocidad de movimiento en {0}%
+reward.desc.stat_stamina = Aumenta la resistencia máxima en {0}
+reward.desc.stat_mana = Aumenta el maná máximo en {0}
+reward.desc.health_regen = Regenera {0}% de salud máxima por segundo
+reward.desc.mana_regen = Regenera {0}% de maná máximo por segundo
+reward.desc.bonus_xp = Gana {0}% más XP de {1}
+reward.desc.luck = {0}% de suerte extra para {1}
+reward.desc.critical_chance = {0}% de probabilidad de golpe crítico
+reward.desc.lifesteal = Cura {0}% del daño infligido
+reward.desc.knockback_resistance = Reduce el retroceso en {0}%
+reward.desc.haste = Aumenta la velocidad de recolección en {0}%
+reward.desc.fortune = {0}% de probabilidad de drops extra
+reward.desc.vein_miner = Rompe hasta {0} bloques conectados del mismo tipo
+reward.desc.fall_damage_reduction = Recibe {0}% menos daño por caída
+reward.desc.effect_duration = Los efectos duran {0}% más
+reward.desc.cooldown_reduction = Reduce los tiempos de recarga en {0}%
+reward.desc.parry_counterattack = Aumenta el daño de contraataque en {0}%
+reward.desc.parry_reflect = Refleja {0}% del daño bloqueado
+reward.desc.parry_stamina_drain = Reduce la pérdida de resistencia al parar en {0}%
+reward.desc.parry_stun_damage = Inflige {0}% de daño extra a enemigos aturdidos
+reward.desc.with_target = " con {0}"
+reward.short.stat_health = +{0} PV
+reward.short.stat_stamina = +{0} RES
+reward.short.stat_mana = +{0} MANA
+reward.short.stat_damage = +{0}% DAÑO
+reward.short.stat_defense = +{0}% BLOQ
+reward.short.critical_chance = +{0}% CRÍT
+reward.short.lifesteal = +{0}% ROBO
+reward.short.luck = +{0}% SUERTE
+reward.short.fall_damage_reduction = -{0}% CAÍDA
+reward.short.parry_counterattack = +{0}% PARADE
+reward.short.parry_reflect = +{0}% REFL
+reward.short.parry_stamina_drain = +{0}% DREN
+reward.short.parry_stun_damage = +{0}% ATUR
+reward.short.health_regen = +{0}% PV/s
+reward.short.mana_regen = +{0}% MP/s
+reward.cape.mining = Mining Mastery Cape
+reward.cape.woodcutting = Woodcutting Mastery Cape
+reward.cape.excavation = Excavation Mastery Cape
+reward.cape.harvesting = Harvesting Mastery Cape
+reward.cape.swords = Swords Mastery Cape
+reward.cape.daggers = Daggers Mastery Cape
+reward.cape.polearms = Polearms Mastery Cape
+reward.cape.staves = Staves Mastery Cape
+reward.cape.axes = Axes Mastery Cape
+reward.cape.blunt = Blunt Mastery Cape
+reward.cape.archery = Archery Mastery Cape
+reward.cape.unarmed = Unarmed Mastery Cape
+reward.cape.defense = Block Mastery Cape
+reward.cape.acrobatics = Acrobatics Mastery Cape
+reward.cape.crafting = Crafting Mastery Cape
+reward.cape.building = Building Mastery Cape
+reward.cape.fishing = Fishing Mastery Cape
+reward.cape.magic = Magic Mastery Cape
+reward.cape.artillery = Artillery Mastery Cape
+reward.cape.master = Master Cape
+
+# === from system.lang ===
+
+language.name = Español
+notify.xp_gain = +{0} XP de {1}
+notify.xp_gain_bonus = +{0} XP de {1} (+{2}% bonus)
+notify.level_up = ¡SUBISTE DE NIVEL! {0} ahora es Nivel {1}!
+notify.first_skill_gain = ¡Empezaste a entrenar {0}!
+notify.first_skill_hint = Escribe /mmoxp para ver tu progreso, /xp para recompensas
+notify.tip_prefix = Consejo: {0}
+notify.tip_view_progress = ¡Escribe /mmoxp para ver tu progreso!
+notify.mob_drop = Mob Drop!
+notify.mob_drop.hint = You received a special drop
+notify.reward_unlocked = ¡Nueva recompensa de {0} desbloqueada! Escribe /xp
+notify.rewards_available = ¡Nueva{1} recompensa{1} de {0} disponible{1}!
+notify.rewards_hint = Escribe /xp para ver y reclamar recompensas
+notify.reward_claimed = Recompensa de {0} reclamada: {1}
+notify.rewards_reset = Las recompensas de {0} han sido reiniciadas
+notify.rewards_reset_hint = Puedes elegir nuevas recompensas
+notify.skill_tree_reset = ¡Todas las selecciones de recompensas del árbol de habilidades han sido reiniciadas!
+notify.item_reward_available = ¡Recompensas de {0} Nv.{1} disponibles! Abre /xp > Recompensas
+notify.item_reward_available_total = ¡Recompensas de Nivel Total {0} disponibles! Abre /xp > Recompensas
+notify.critical_hit = ¡CRIT! {0}
+notify.lifesteal = Robo +{0}
+notify.defense_blocked = Bloqueado {0}
+notify.fall_reduced = Rodar -{0}
+notify.item_requirement_not_met = Requiere: {0}
+notify.tool_requirement_not_met = Requiere herramienta: {0}
+notify.weapon_requirement_not_met = Requiere arma: {0}
+category.gathering = Habilidades de Recolección
+category.combat = Habilidades de Combate
+category.crafting = Habilidades de Fabricación
+category.misc = Habilidades Varias
+combat_target.all = Todo Combate
+combat_target.melee = Cuerpo a cuerpo
+combat_target.ranged = A distancia
+combat_target.magic = Magia
+combat_target.swords = Espadas
+combat_target.daggers = Dagas
+combat_target.polearms = Lanzas
+combat_target.staves = Bastones
+combat_target.axes = Hachas
+combat_target.blunt = Contundente
+combat_target.archery = Arquería
+combat_target.unarmed = Desarmado
+cmd.language_reloaded = Archivos de idioma recargados
+cmd.only_players = Solo los jugadores pueden usar este comando.
+cmd.no_permission = No tienes permiso para usar este comando.
+cmd.setxp.no_permission_others = No tienes permiso para establecer XP de otros jugadores.
+cmd.setxp.player_not_found = Jugador no encontrado o no en el mismo mundo: {0}
+cmd.setxp.no_skill_data = No se encontraron datos de habilidad para {0}. Necesitan jugar primero.
+cmd.setxp.xp_negative = El valor de XP debe ser no negativo.
+cmd.setxp.unknown_skill = Habilidad desconocida: {0}
+cmd.setxp.available_skills = Habilidades disponibles: {0}
+cmd.setxp.success_all = Todas las habilidades establecidas en {0} XP.
+cmd.setxp.success_all_target = Todas las habilidades establecidas en {0} XP para {1}.
+cmd.setxp.success_skill = {0} establecida en {1} XP.
+cmd.setxp.success_skill_target = {0} establecida en {1} XP para {2}.
+cmd.setxp.rewards_revoked = {0} recompensa(s) del arbol de habilidades revocada(s) (nivel muy bajo).
+cmd.config.header_xp_overrides = === Anulaciones de XP (personalizaciones) ===
+cmd.config.header_luck_overrides = === Anulaciones de Suerte (personalizaciones) ===
+cmd.config.header_skill_xp = === Mapa XP de {0} ===
+cmd.config.header_skill_overrides = " ({0} anulacion(es))"
+cmd.config.no_overrides = Sin anulaciones - usando todos los valores predeterminados
+cmd.config.see_reference = Ver carpeta _reference/ para valores predeterminados
+cmd.config.disabled = DESHABILITADO
+cmd.config.default_was = (predeterminado: {0})
+cmd.config.custom = (personalizado)
+cmd.config.override_indicator = [anulacion, predeterminado: {0}]
+cmd.config.no_entries = (sin entradas)
+cmd.config.tip_diff = Tip: Usa /mmoconfig diff para ver solo anulaciones
+cmd.config.diff.pattern_disabled = {0}: DESHABILITADO
+cmd.config.diff.pattern_override = {0}: {1} XP (predeterminado: {2})
+cmd.config.diff.pattern_custom = {0}: {1} XP (personalizado)
+cmd.config.diff.luck_disabled = {0}: DESHABILITADO
+cmd.config.diff.luck_override = {0} -> {1} (predeterminado: {2})
+cmd.config.diff.luck_custom = {0} -> {1} (personalizado)
+cmd.config.trim.removed = Eliminadas {0} anulacion(es) redundante(s)
+cmd.config.trim.clean = Sin anulaciones redundantes - config ya esta limpia
+cmd.config.disable.success = Deshabilitado {0} '{1}' (era predeterminado: {2})
+cmd.config.disable.success_custom = Deshabilitado {0} '{1}'
+cmd.config.disable.no_xp = Este patron ya no dara XP
+cmd.config.disable.no_luck = Este patron ya no dara bonus de suerte
+cmd.config.reset.to_default = Restablecido {0} '{1}' a predeterminado: {2}
+cmd.config.reset.removed = Patron personalizado eliminado {0} '{1}' (sin predeterminado)
+cmd.config.set.success = XP de {0} para '{1}' establecida en {2}
+cmd.config.set.luck_success = Bonus de suerte para '{0}' establecido en {1}
+cmd.config.reload.success = Todas las configs recargadas
+cmd.config.reload.defaults = Todas las configs restablecidas a valores predeterminados
+cmd.config.reload.revoked = Revocadas {0} recompensa(s) de jugadores en linea
+time.days_short = d
+time.hours_short = h
+time.minutes_short = m
+notify.boost_activated = Boost de {0}x {1} XP activado por {2} minutos!
+notify.boost_activated_global = {0} activo un boost global de {1}x {2} XP!
+boost.target.all_skills = Todas las Habilidades
+notify.boost_expired = Tu boost de {0}x {1} XP ha expirado.
+notify.boost_expired_global = El boost global de {0}x {1} XP ha expirado.
+notify.boost_on_cooldown = Este boost esta en enfriamiento. Disponible en {0}.
+notify.token_received = Recibiste un token de boost de {0}x {1} XP ({2} minutos)! Abre Boosts para activar.
+notify.command_reward_received = Recompensa desbloqueada para {0} Nivel {1}!
+notify.tokens_delivered = Tienes {0} token(s) de boost pendientes!
+notify.ability_armed_consumed = ¡{0}! x{1}
+cmd.boost.usage = Uso: /mmoboost <give|global|list|clear|status> (usa | entre args)
+cmd.boost.give_usage = Uso: /mmoboost give|<jugador|*>|<skill|categoria|all>|<mult>|<mins>|[scope]
+cmd.boost.global_usage = Uso: /mmoboost global|<skill|categoria|all>|<multiplicador>|<minutos>
+cmd.boost.given = Boost de {0}x {1} XP dado a {2} por {3} minutos.
+cmd.boost.given_all = Boost de {0}x {1} XP dado a todos los jugadores por {2} minutos.
+cmd.boost.token_given = Token de boost de {0}x {1} XP otorgado a {2} ({3}m, {4}).
+cmd.boost.token_given_all = Tokens de {1}x {2} XP ({3}m, {4}) otorgados a {0} jugadores.
+cmd.boost.global_activated = Boost global de {0}x {1} XP activado por {2} minutos.
+cmd.boost.cleared = Boosts y tokens eliminados para {0}.
+cmd.boost.cleared_global = Todos los boosts globales eliminados.
+cmd.boost.list_header = Boosts Globales Activos:
+cmd.boost.list_empty = Sin boosts globales activos.
+cmd.boost.list_entry = "  {0}x {1} XP - {2} restante (por {3})"
+cmd.boost.status_header = Estado de Boosts para {0}:
+cmd.boost.status_active = "  Activo: {0}x {1} XP - {2} restante"
+cmd.boost.status_token = "  Token: {0}"
+cmd.boost.status_none = "  Sin boosts activos o tokens"
+cmd.boost.no_permission = No tienes permiso para usar este comando.
+cmd.boost.player_not_found = Jugador no encontrado: {0}
+cmd.boost.invalid_target = Objetivo invalido. Usa nombre de skill, categoria, o 'all'.
+cmd.boost.invalid_multiplier = Multiplicador invalido. Debe ser un numero positivo.
+cmd.boost.invalid_duration = Duracion invalida. Debe ser un entero positivo (minutos).
+boost.limit.global_full = Limite de boosts globales alcanzado ({0}/{1})
+boost.limit.personal_full = Limite de boosts personales alcanzado ({0}/{1})
+notify.xptoken.consumed_flat = ¡{0} consumido — +{1} XP de {2}!
+notify.xptoken.consumed_boost = ¡{0} consumido — Boost de {1}x {2} XP activado por {3} minutos!
+notify.xptoken.consumed_boost_global = ¡{0} consumido — Boost global de {1}x {2} XP activado por {3} minutos!
+notify.xptoken.disabled = Los tokens de XP están desactivados.
+notify.xptoken.boost_limit = No se puede activar — límite de boosts alcanzado.
+notify.xptoken.not_recognized = Este token no pudo ser reconocido.
+notify.quest_objective_complete = Objetivo completado: {0}
+notify.quest_objective_progress = {0} ({1}/{2})
+notify.quest_complete = ¡Misión completada: {0}!
+notify.quest_rewards_delivered = ¡Recibiste {0} recompensa(s) de misión!
+notify.quest_ready_to_claim = ¡Misión completada: {0}! Abre la página de Misiones para reclamar tus recompensas.
+notify.quest_inventory_full = ¡Misión completada: {0}! Libera espacio en el inventario para reclamar tus recompensas.
+notify.quest_turn_in = Entregado {0}/{1} {2}
+cmd.playerquest.usage = Uso: /quest <accept|claim|abandon|status> [questId]
+cmd.playerquest.accept_usage = Uso: /quest accept <questId>
+cmd.playerquest.claim_usage = Uso: /quest claim <questId|all>
+cmd.playerquest.abandon_usage = Uso: /quest abandon <questId>
+cmd.playerquest.accept_success = Misión aceptada: {0}
+cmd.playerquest.claim_success = Recompensas reclamadas para: {0}
+cmd.playerquest.claim_all_success = ¡Recompensas reclamadas para {0} misión(es)!
+cmd.playerquest.abandon_success = Misión abandonada: {0}
+cmd.playerquest.quest_not_found = Misión no encontrada: {0}
+cmd.playerquest.cannot_accept = No se puede aceptar la misión: {0}
+cmd.playerquest.not_claimable = La misión no está lista para reclamar: {0}
+cmd.playerquest.not_active = La misión no está activa: {0}
+cmd.playerquest.nothing_to_claim = No hay misiones listas para reclamar.
+cmd.playerquest.no_quest_data = No se encontraron datos de misión.
+cmd.playerquest.status_header = === Tus Misiones ===
+cmd.playerquest.status_none = Sin misiones activas.
+cmd.playerquest.status_active = Activa
+cmd.playerquest.status_unclaimed = Lista para reclamar
+cmd.playerquest.status_completed = Completada
+cmd.quest.usage = Uso: /mmoquestadmin <reload|list|give|reset|complete|status> [args]
+cmd.quest.no_permission = Necesitas permiso de admin para usar este comando.
+cmd.quest.reload_success = Config de misiones recargada: {0} misiones cargadas.
+cmd.quest.list_header = === Misiones ===
+cmd.quest.no_quests = No hay misiones cargadas.
+cmd.quest.quest_not_found = Misión no encontrada: {0}
+cmd.quest.player_not_found = Jugador no encontrado: {0}
+cmd.quest.no_quest_data = Sin datos de misión para {0}
+cmd.quest.give_usage = Uso: /mmoquestadmin give <jugador|*>|<questId>
+cmd.quest.give_success = Misión ''{0}'' iniciada para {1} jugadores.
+cmd.quest.give_success_player = Misión ''{0}'' iniciada para {1}
+cmd.quest.give_failed = Error al obtener datos de misión para {0}
+cmd.quest.reset_usage = Uso: /mmoquestadmin reset <jugador>|<questId|all>
+cmd.quest.reset_all = Todas las misiones reiniciadas para {0}
+cmd.quest.reset_success = Misión ''{0}'' reiniciada para {1}
+cmd.quest.complete_usage = Uso: /mmoquestadmin complete <jugador>|<questId>
+cmd.quest.complete_success = Misión ''{0}'' completada para {1} (recompensas otorgadas)
+cmd.quest.complete_offline = Jugador ''{0}'' está desconectado. {1} recompensa(s) en cola para entrega al conectar.
+cmd.quest.status_usage = Uso: /mmoquestadmin status <jugador> [questId]
+cmd.quest.status_header = === Estado de Misiones: {0} ===
+cmd.quest.status_none = Sin datos de misión.
+
+# === from ui.lang ===
 
 ui.button.close = CERRAR
 ui.button.back = < ATRÁS
@@ -367,4 +677,4 @@ ui.quests.btn_turn_in = Entregar
 ui.npc_quest.turn_in_fail = No hay suficiente {0} ({1}/{2})
 ui.quests.turn_in_at_npc = Entregar en {0}
 
-# 362 keys total.
+# 659 keys; 0 empty-value lines dropped.

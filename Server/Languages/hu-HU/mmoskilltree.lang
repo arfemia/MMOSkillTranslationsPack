@@ -1,8 +1,318 @@
-# MMOSkillTranslationsPack - hu-HU (ui)
-# Auto-generated from v1 JSON pack by convert-json-to-lang.ps1.
+# MMOSkillTranslationsPack - hu-HU
+# Consolidated translation file. Hytale's I18nModule prepends
+# 'mmoskilltree.' to every key; LocalizationConfig strips it at lookup.
 
 
-# === ui ===
+# === from abilities.lang ===
+
+ability.armed = {0} előkészítve — a következő találatod erősebb lesz.
+ability.armed_consumed.fallback = Megerősített találat
+ability.marked = {0} alkalmazva! A következő találatok bónusz sebzést okoznak.
+ability.aura_armed = {0} {1} szövetségest buzdított — a következő találatuk megerősítve.
+
+# === from content.lang ===
+
+achievement.category.quests = Küldetések
+
+# === from skills.lang ===
+
+reward.preview.locked = ZÁROLVA
+reward.preview.requires_level = Sz {0}
+reward.preview.unlocks_at = {0}. szinten oldható fel
+reward.preview.tooltip_quantity = x{0}
+skill.mining = Bányászat
+skill.woodcutting = Favágás
+skill.excavation = Ásás
+skill.harvesting = Aratás
+skill.fishing = Horgászat
+skill.swords = Kardok
+skill.daggers = Tör
+skill.polearms = Lándzsák
+skill.staves = Botok
+skill.axes = Fejszék
+skill.blunt = Zúzófegyverek
+skill.archery = Íjászat
+skill.unarmed = Puszta kéz
+skill.defense = Blokkolás
+skill.taming = Szelídítés
+skill.acrobatics = Akrobatika
+skill.crafting = Craftolás
+skill.repair = Javítás
+skill.alchemy = Alkimia
+skill.enchanting = Enchantolás
+skill.cooking = Fözés
+skill.smithing = Kovácsolás
+skill.building = Építés
+reward.stat_health = Max HP
+reward.stat_damage = Sebzés (DMG)
+reward.stat_defense = Blokkolás
+reward.stat_speed = Move Speed
+reward.stat_stamina = Max Stamina
+reward.stat_mana = Max Mana
+reward.luck = Szerencse (Luck)
+reward.bonus_xp = Bonus XP
+reward.critical_chance = Crit Chance
+reward.lifesteal = Lifesteal
+reward.dodge_counterattack = Kitérés Ellentámadás
+reward.knockback_resistance = Lökés ellenállás
+reward.haste = Haste (Gyorsaság)
+reward.fortune = Fortune
+reward.vein_miner = Vein Miner
+reward.fall_damage_reduction = Zuhanási sebzés csökkentés
+reward.effect_duration = Effekt időtartam
+reward.cooldown_reduction = Cooldown csökkentés
+reward.parry_counterattack = Hárítás Ellentámadás
+reward.parry_reflect = Hárítás Visszaverés
+reward.parry_stamina_drain = Hárítás Állóképesség Szívás
+reward.parry_stun_damage = Hárítás Kábítás Sebzés
+reward.health_regen = Élet Regeneráció
+reward.mana_regen = Mana Regeneráció
+reward.format.percent = +{0}%
+reward.format.flat = +{0}
+reward.format.blocks = +{0} blokk
+reward.xp_suffix = XP
+reward.luck_suffix = Szerencse
+reward.desc.stat_health = Növeli a maximális életerőt {0}-val
+reward.desc.stat_damage = {0}%-kal több sebzést okoz
+reward.desc.stat_defense = A beérkező sebzés {0}%-át blokkolja
+reward.desc.stat_speed = Növeli a mozgási sebességet {0}%-kal
+reward.desc.stat_stamina = Növeli a maximális állóképességet {0}-val
+reward.desc.stat_mana = Növeli a maximális manát {0}-val
+reward.desc.health_regen = Másodpercenként regenerál {0}% maximális életerőt
+reward.desc.mana_regen = Másodpercenként regenerál {0}% maximális manát
+reward.desc.bonus_xp = {0}%-kal több XP-t kap {1} után
+reward.desc.luck = {0}% bónusz szerencse {1} számára
+reward.desc.critical_chance = {0}% esély kritikus találatra
+reward.desc.lifesteal = Az okozott sebzés {0}%-át gyógyítja
+reward.desc.knockback_resistance = Csökkenti a hátralökést {0}%-kal
+reward.desc.haste = Növeli a gyűjtési sebességet {0}%-kal
+reward.desc.fortune = {0}% esély bónusz zsákmányra
+reward.desc.vein_miner = Eltör {0} összekapcsolt blokkot ugyanabból a típusból
+reward.desc.fall_damage_reduction = {0}%-kal kevesebb esési sebzést kap
+reward.desc.effect_duration = A hatások {0}%-kal tovább tartanak
+reward.desc.cooldown_reduction = Csökkenti a várakozási időt {0}%-kal
+reward.desc.parry_counterattack = Növeli az ellentámadás sebzését {0}%-kal
+reward.desc.parry_reflect = Visszaver {0}%-ot a blokkolt sebzésből
+reward.desc.parry_stamina_drain = Csökkenti az állóképesség-veszteséget hárításkor {0}%-kal
+reward.desc.parry_stun_damage = {0}% bónusz sebzést okoz elkábított ellenségeknek
+reward.desc.with_target = " - {0}"
+reward.short.stat_health = +{0} ÉP
+reward.short.stat_stamina = +{0} ÁLL
+reward.short.stat_mana = +{0} MANA
+reward.short.stat_damage = +{0}% SEBZ
+reward.short.stat_defense = +{0}% BLOKK
+reward.short.critical_chance = +{0}% KRIT
+reward.short.lifesteal = +{0}% ÉLETL
+reward.short.luck = +{0}% SZER
+reward.short.fall_damage_reduction = -{0}% ESÉS
+reward.short.parry_counterattack = +{0}% HÁRÍT
+reward.short.parry_reflect = +{0}% VISSZ
+reward.short.parry_stamina_drain = +{0}% MERT
+reward.short.parry_stun_damage = +{0}% KÁB
+reward.short.health_regen = +{0}% ÉP/s
+reward.short.mana_regen = +{0}% MP/s
+reward.cape.mining = Mining Mastery Cape
+reward.cape.woodcutting = Woodcutting Mastery Cape
+reward.cape.excavation = Excavation Mastery Cape
+reward.cape.harvesting = Harvesting Mastery Cape
+reward.cape.swords = Swords Mastery Cape
+reward.cape.daggers = Daggers Mastery Cape
+reward.cape.polearms = Polearms Mastery Cape
+reward.cape.staves = Staves Mastery Cape
+reward.cape.axes = Axes Mastery Cape
+reward.cape.blunt = Blunt Mastery Cape
+reward.cape.archery = Archery Mastery Cape
+reward.cape.unarmed = Unarmed Mastery Cape
+reward.cape.defense = Block Mastery Cape
+reward.cape.acrobatics = Acrobatics Mastery Cape
+reward.cape.crafting = Crafting Mastery Cape
+reward.cape.building = Building Mastery Cape
+reward.cape.fishing = Fishing Mastery Cape
+reward.cape.magic = Magic Mastery Cape
+reward.cape.artillery = Artillery Mastery Cape
+reward.cape.master = Master Cape
+
+# === from system.lang ===
+
+language.name = Magyar
+notify.xp_gain = +{0} {1} XP
+notify.xp_gain_bonus = +{0} {1} XP (+{2}% bónusz)
+notify.level_up = SZINTLÉPÉS! {0} szinted: {1}!
+notify.first_skill_gain = Elkezdted a(z) {0} fejlesztését!
+notify.first_skill_hint = Használd a /xp parancsot a haladásodhoz
+notify.tip_prefix = Tipp: {0}
+notify.tip_view_progress = Írd be: /mmoxp a haladásodhoz!
+notify.mob_drop = Mob Drop!
+notify.mob_drop.hint = You received a special drop
+notify.reward_unlocked = Új {0} jutalom! Írd be a /xp-t a claimeléshez
+notify.rewards_available = {0} jutalom ({1}) elérhetö!
+notify.rewards_hint = Írd be a /xp-t a jutalmakért
+notify.reward_claimed = {0} jutalom begyüjtve: {1}
+notify.rewards_reset = A(z) {0} rewardok resetelve lettek
+notify.rewards_reset_hint = Most új rewardokat választhatsz
+notify.skill_tree_reset = Az összes képességfa jutalom-kiválasztás visszaállítva!
+notify.item_reward_available = {0} {1}. szintű tárgy jutalmak elérhetők! Nyisd meg /xp > Jutalmak
+notify.item_reward_available_total = Összesített {0}. szintű tárgy jutalmak elérhetők! Nyisd meg /xp > Jutalmak
+notify.critical_hit = CRIT! {0}
+notify.lifesteal = Lifesteal +{0}
+notify.defense_blocked = Blokkolva: {0}
+notify.fall_reduced = Roll (tompítás): -{0}
+notify.item_requirement_not_met = Szükséges: {0}
+notify.tool_requirement_not_met = Szükséges eszköz: {0}
+notify.weapon_requirement_not_met = Szükséges fegyver: {0}
+category.gathering = Gathering Skillek
+category.combat = Combat Skillek
+category.crafting = Crafting Skillek
+category.misc = Egyéb Skillek
+combat_target.all = Minden Harc
+combat_target.melee = Közelharc
+combat_target.ranged = Távolsági
+combat_target.magic = Mágia
+combat_target.swords = Kardok
+combat_target.daggers = Tőrök
+combat_target.polearms = Lándzsák
+combat_target.staves = Botok
+combat_target.axes = Fejszék
+combat_target.blunt = Tompa
+combat_target.archery = Íjászat
+combat_target.unarmed = Fegyvertelen
+cmd.language_reloaded = Nyelvi fájlok frissítve
+cmd.only_players = Ezt a parancsot csak játékosok használhatják.
+cmd.no_permission = Nincs jogosultsagod ehhez a parancshoz.
+cmd.setxp.no_permission_others = Nincs jogosultsagod mas jatekosok XP-jet beallitani.
+cmd.setxp.player_not_found = Jatekos nem talalhato vagy nincs ugyanabban a vilagban: {0}
+cmd.setxp.no_skill_data = Nem talalhato kepesseg adat {0} szamara. Eloszor jatszaniuk kell.
+cmd.setxp.xp_negative = Az XP ertek nem lehet negativ.
+cmd.setxp.unknown_skill = Ismeretlen kepesseg: {0}
+cmd.setxp.available_skills = Elerheto kepessegek: {0}
+cmd.setxp.success_all = Minden kepesseg beallitva {0} XP-re.
+cmd.setxp.success_all_target = Minden kepesseg beallitva {0} XP-re {1} szamara.
+cmd.setxp.success_skill = {0} beallitva {1} XP-re.
+cmd.setxp.success_skill_target = {0} beallitva {1} XP-re {2} szamara.
+cmd.setxp.rewards_revoked = {0} kepessegfa jutalom visszavonva (tul alacsony szint).
+cmd.config.header_xp_overrides = === XP Felulbiralasok (testreszabasok) ===
+cmd.config.header_luck_overrides = === Szerencse Felulbiralasok (testreszabasok) ===
+cmd.config.header_skill_xp = === {0} XP Terkep ===
+cmd.config.header_skill_overrides = " ({0} felulbiralas)"
+cmd.config.no_overrides = Nincs felulbiralas - alapertelmezett ertekek hasznalata
+cmd.config.see_reference = Lasd _reference/ mappa az alapertelmezett ertekekert
+cmd.config.disabled = LETILTVA
+cmd.config.default_was = (alapertelmezett: {0})
+cmd.config.custom = (egyedi)
+cmd.config.override_indicator = [felulbiralas, alapertelmezett: {0}]
+cmd.config.no_entries = (nincs bejegyzes)
+cmd.config.tip_diff = Tipp: Hasznald /mmoconfig diff a felulbiralasok megtekintéséhez
+cmd.config.diff.pattern_disabled = {0}: LETILTVA
+cmd.config.diff.pattern_override = {0}: {1} XP (alapertelmezett: {2})
+cmd.config.diff.pattern_custom = {0}: {1} XP (egyedi)
+cmd.config.diff.luck_disabled = {0}: LETILTVA
+cmd.config.diff.luck_override = {0} -> {1} (alapertelmezett: {2})
+cmd.config.diff.luck_custom = {0} -> {1} (egyedi)
+cmd.config.trim.removed = {0} felesleges felulbiralas eltavolitva
+cmd.config.trim.clean = Nincs felesleges felulbiralas - config mar tiszta
+cmd.config.disable.success = Letiltva {0} '{1}' (alapertelmezett volt: {2})
+cmd.config.disable.success_custom = Letiltva {0} '{1}'
+cmd.config.disable.no_xp = Ez a minta nem ad tobb XP-t
+cmd.config.disable.no_luck = Ez a minta nem ad tobb szerencse bonuszt
+cmd.config.reset.to_default = Visszaallitva {0} '{1}' alapertelmezettre: {2}
+cmd.config.reset.removed = Egyedi minta eltavolitva {0} '{1}' (nincs alapertelmezett)
+cmd.config.set.success = {0} XP '{1}'-hoz beallitva {2}-re
+cmd.config.set.luck_success = Szerencse bonus '{0}'-hoz beallitva {1}-re
+cmd.config.reload.success = Minden config ujratoltve
+cmd.config.reload.defaults = Minden config visszaallitva alapertelmezettre
+cmd.config.reload.revoked = {0} jutalom visszavonva online jatekosoktol
+time.days_short = n
+time.hours_short = ó
+time.minutes_short = p
+notify.boost_activated = {0}x {1} XP boost aktiválva {2} percre!
+notify.boost_activated_global = {0} aktivált egy globális {1}x {2} XP boostot!
+boost.target.all_skills = Összes Képesség
+notify.boost_expired = A {0}x {1} XP boostod lejárt.
+notify.boost_expired_global = A globális {0}x {1} XP boost lejárt.
+notify.boost_on_cooldown = Ez a boost lehűlés alatt van. Elérhető: {0} múlva.
+notify.token_received = Kaptál egy {0}x {1} XP boost tokent ({2} perc)! Nyisd meg a Boostokat az aktiváláshoz.
+notify.command_reward_received = Jutalom feloldva: {0} {1}. szint!
+notify.tokens_delivered = {0} függő boost tokened van!
+notify.ability_armed_consumed = {0}! x{1}
+cmd.boost.usage = Használat: /mmoboost <give|global|list|clear|status> (| a szeparatór)
+cmd.boost.give_usage = Használat: /mmoboost give|<játékos|*>|<képesség|kategória|all>|<szorzó>|<perc>|[hatókör]
+cmd.boost.global_usage = Használat: /mmoboost global|<képesség|kategória|all>|<szorzó>|<perc>
+cmd.boost.given = {0}x {1} XP boost adva {2}-nak {3} percre.
+cmd.boost.given_all = {0}x {1} XP boost adva minden játékosnak {2} percre.
+cmd.boost.token_given = {0}x {1} XP boost token adva {2}-nak ({3}p, {4}).
+cmd.boost.token_given_all = {1}x {2} XP tokenek ({3}p, {4}) adva {0} játékosnak.
+cmd.boost.global_activated = Globális {0}x {1} XP boost aktiválva {2} percre.
+cmd.boost.cleared = Boostok és tokenek törölve {0} számára.
+cmd.boost.cleared_global = Minden globális boost törölve.
+cmd.boost.list_header = Aktív Globális Boostok:
+cmd.boost.list_empty = Nincs aktív globális boost.
+cmd.boost.list_entry = "  {0}x {1} XP - {2} hátra ({3} által)"
+cmd.boost.status_header = Boost Állapot {0} számára:
+cmd.boost.status_active = "  Aktív: {0}x {1} XP - {2} hátra"
+cmd.boost.status_token = "  Token: {0}"
+cmd.boost.status_none = "  Nincs aktív boost vagy token"
+cmd.boost.no_permission = Nincs jogosultságod ehhez a parancshoz.
+cmd.boost.player_not_found = Játékos nem található: {0}
+cmd.boost.invalid_target = Érvénytelen célpont. Használj képességnevet, kategóriát vagy 'all'-t.
+cmd.boost.invalid_multiplier = Érvénytelen szorzó. Pozitív számnak kell lennie.
+cmd.boost.invalid_duration = Érvénytelen időtartam. Pozitív egész számnak kell lennie (percben).
+boost.limit.global_full = Globális boost limit elérve ({0}/{1})
+boost.limit.personal_full = Személyes boost limit elérve ({0}/{1})
+notify.xptoken.consumed_flat = {0} elfogyasztva — +{1} {2} XP szerezve!
+notify.xptoken.consumed_boost = {0} elfogyasztva — {1}x {2} XP boost aktiválva {3} percre!
+notify.xptoken.consumed_boost_global = {0} elfogyasztva — {1}x {2} globális XP boost aktiválva {3} percre!
+notify.xptoken.disabled = Az XP tokenek jelenleg le vannak tiltva.
+notify.xptoken.boost_limit = Nem aktiválható — boost limit elérve.
+notify.xptoken.not_recognized = Ezt a tokent nem sikerült felismerni.
+notify.quest_objective_complete = Cél teljesítve: {0}
+notify.quest_objective_progress = {0} ({1}/{2})
+notify.quest_complete = Küldetés teljesítve: {0}!
+notify.quest_rewards_delivered = {0} küldetés jutalom érkezett!
+notify.quest_ready_to_claim = Küldetés teljesítve: {0}! Nyisd meg a Küldetések oldalt a jutalmaidért.
+notify.quest_inventory_full = Küldetés teljesítve: {0}! Szabadíts fel helyet a leltáradban a jutalmakért.
+notify.quest_turn_in = Leadva {0}/{1} {2}
+cmd.playerquest.usage = Használat: /quest <accept|claim|abandon|status> [questId]
+cmd.playerquest.accept_usage = Használat: /quest accept <questId>
+cmd.playerquest.claim_usage = Használat: /quest claim <questId|all>
+cmd.playerquest.abandon_usage = Használat: /quest abandon <questId>
+cmd.playerquest.accept_success = Küldetés elfogadva: {0}
+cmd.playerquest.claim_success = Jutalmak átvéve: {0}
+cmd.playerquest.claim_all_success = Jutalmak átvéve {0} küldetésért!
+cmd.playerquest.abandon_success = Küldetés feladva: {0}
+cmd.playerquest.quest_not_found = Küldetés nem található: {0}
+cmd.playerquest.cannot_accept = A küldetés nem fogadható el: {0}
+cmd.playerquest.not_claimable = A küldetés nem átvehető: {0}
+cmd.playerquest.not_active = A küldetés nem aktív: {0}
+cmd.playerquest.nothing_to_claim = Nincs átvehető küldetés.
+cmd.playerquest.no_quest_data = Nem található küldetés adat.
+cmd.playerquest.status_header = === Küldetéseid ===
+cmd.playerquest.status_none = Nincs aktív küldetés.
+cmd.playerquest.status_active = Aktív
+cmd.playerquest.status_unclaimed = Átvételre vár
+cmd.playerquest.status_completed = Teljesítve
+cmd.quest.usage = Használat: /mmoquestadmin <reload|list|give|reset|complete|status> [args]
+cmd.quest.no_permission = Admin jogosultság szükséges ehhez a parancshoz.
+cmd.quest.reload_success = Küldetés konfiguráció újratöltve: {0} küldetés betöltve.
+cmd.quest.list_header = === Küldetések ===
+cmd.quest.no_quests = Nincsenek betöltött küldetések.
+cmd.quest.quest_not_found = Küldetés nem található: {0}
+cmd.quest.player_not_found = Játékos nem található: {0}
+cmd.quest.no_quest_data = Nincs küldetés adat: {0}
+cmd.quest.give_usage = Használat: /mmoquestadmin give <játékos|*>|<questId>
+cmd.quest.give_success = Küldetés ''{0}'' elindítva {1} játékosnak.
+cmd.quest.give_success_player = Küldetés ''{0}'' elindítva: {1}
+cmd.quest.give_failed = Nem sikerült küldetés adatot lekérni: {0}
+cmd.quest.reset_usage = Használat: /mmoquestadmin reset <játékos>|<questId|all>
+cmd.quest.reset_all = Minden küldetés alaphelyzetbe állítva: {0}
+cmd.quest.reset_success = Küldetés ''{0}'' alaphelyzetbe állítva: {1}
+cmd.quest.complete_usage = Használat: /mmoquestadmin complete <játékos>|<questId>
+cmd.quest.complete_success = Küldetés ''{0}'' teljesítve: {1} (jutalmak megadva)
+cmd.quest.complete_offline = Játékos ''{0}'' offline. {1} jutalom várakozó sorba került csatlakozáskor.
+cmd.quest.status_usage = Használat: /mmoquestadmin status <játékos> [questId]
+cmd.quest.status_header = === Küldetés Állapot: {0} ===
+cmd.quest.status_none = Nincs küldetés adat.
+
+# === from ui.lang ===
 
 ui.button.close = BEZÁRÁS
 ui.button.back = < VISSZA
@@ -367,4 +677,4 @@ ui.quests.btn_turn_in = Leadás
 ui.npc_quest.turn_in_fail = Nincs elég {0} ({1}/{2})
 ui.quests.turn_in_at_npc = Leadás: {0}
 
-# 362 keys total.
+# 659 keys; 0 empty-value lines dropped.
