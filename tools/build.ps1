@@ -22,7 +22,10 @@ $zip = [IO.Compression.ZipFile]::Open($zipPath, 'Create')
 $excludeNames = @(
     'MMOSkillTranslationsPack.zip',  # the built artifact itself
     'README.md', 'CURSEFORGE.md', 'CLAUDE.md',  # repo docs, not for players
-    'LICENSE', '.gitignore'  # repo metadata
+    'LICENSE', '.gitignore',  # repo metadata
+    'manifest.json'  # excluded per user request; the pack repo carries the
+                     # manifest for git history but the deploy pipeline supplies
+                     # it separately at install time.
 )
 $files = Get-ChildItem -Path $pack -Recurse -File -Force | Where-Object {
     $_.Name -notin $excludeNames -and
