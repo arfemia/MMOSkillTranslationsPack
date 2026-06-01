@@ -1,21 +1,8 @@
-# MMOSkillTranslationsPack - ru-RU
-# Consolidated translation file. Hytale's I18nModule prepends
-# 'mmoskilltree.' to every key; LocalizationConfig strips it at lookup.
-
-
-# === from abilities.lang ===
-
 ability.armed = {0} заряжено — ваш следующий удар будет усилен.
 ability.armed_consumed.fallback = Усиленный удар
 ability.marked = {0} применено! Последующие удары нанесут бонусный урон.
 ability.aura_armed = {0} сплотил {1} союзников — их следующий удар усилен.
-
-# === from content.lang ===
-
 achievement.category.quests = Квесты
-
-# === from skills.lang ===
-
 reward.preview.locked = ЗАКРЫТО
 reward.preview.requires_level = Ур {0}
 reward.preview.unlocks_at = Открывается на уровне {0}
@@ -128,9 +115,6 @@ reward.cape.fishing = Fishing Mastery Cape
 reward.cape.magic = Magic Mastery Cape
 reward.cape.artillery = Artillery Mastery Cape
 reward.cape.master = Master Cape
-
-# === from system.lang ===
-
 language.name = Русский
 notify.xp_gain = +{0} {1} Опыта
 notify.xp_gain_bonus = +{0} {1} Опыта (+{2}% бонус)
@@ -308,9 +292,6 @@ cmd.quest.complete_offline = Игрок ''{0}'' оффлайн. {1} наград
 cmd.quest.status_usage = Использование: /mmoquestadmin status <игрок> [questId]
 cmd.quest.status_header = === Статус Квестов: {0} ===
 cmd.quest.status_none = Нет данных квестов.
-
-# === from ui.lang ===
-
 ui.button.close = ЗАКРЫТЬ
 ui.button.back = < НАЗАД
 ui.button.on = ВКЛ
@@ -675,5 +656,3 @@ ui.npc_quest.quest_count = {0} Заданий
 ui.quests.btn_turn_in = Сдать
 ui.npc_quest.turn_in_fail = Недостаточно {0} ({1}/{2})
 ui.quests.turn_in_at_npc = Сдать у {0}
-
-# 658 keys; 0 empty-value lines dropped.

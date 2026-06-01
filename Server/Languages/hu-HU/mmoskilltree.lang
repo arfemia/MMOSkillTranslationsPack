@@ -1,21 +1,8 @@
-# MMOSkillTranslationsPack - hu-HU
-# Consolidated translation file. Hytale's I18nModule prepends
-# 'mmoskilltree.' to every key; LocalizationConfig strips it at lookup.
-
-
-# === from abilities.lang ===
-
 ability.armed = {0} előkészítve — a következő találatod erősebb lesz.
 ability.armed_consumed.fallback = Megerősített találat
 ability.marked = {0} alkalmazva! A következő találatok bónusz sebzést okoznak.
 ability.aura_armed = {0} {1} szövetségest buzdított — a következő találatuk megerősítve.
-
-# === from content.lang ===
-
 achievement.category.quests = Küldetések
-
-# === from skills.lang ===
-
 reward.preview.locked = ZÁROLVA
 reward.preview.requires_level = Sz {0}
 reward.preview.unlocks_at = {0}. szinten oldható fel
@@ -131,9 +118,6 @@ reward.cape.fishing = Fishing Mastery Cape
 reward.cape.magic = Magic Mastery Cape
 reward.cape.artillery = Artillery Mastery Cape
 reward.cape.master = Master Cape
-
-# === from system.lang ===
-
 language.name = Magyar
 notify.xp_gain = +{0} {1} XP
 notify.xp_gain_bonus = +{0} {1} XP (+{2}% bónusz)
@@ -311,9 +295,6 @@ cmd.quest.complete_offline = Játékos ''{0}'' offline. {1} jutalom várakozó s
 cmd.quest.status_usage = Használat: /mmoquestadmin status <játékos> [questId]
 cmd.quest.status_header = === Küldetés Állapot: {0} ===
 cmd.quest.status_none = Nincs küldetés adat.
-
-# === from ui.lang ===
-
 ui.button.close = BEZÁRÁS
 ui.button.back = < VISSZA
 ui.button.on = BE
@@ -676,5 +657,3 @@ ui.npc_quest.quest_count = {0} Küldetés
 ui.quests.btn_turn_in = Leadás
 ui.npc_quest.turn_in_fail = Nincs elég {0} ({1}/{2})
 ui.quests.turn_in_at_npc = Leadás: {0}
-
-# 659 keys; 0 empty-value lines dropped.

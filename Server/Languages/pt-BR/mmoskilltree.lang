@@ -1,21 +1,8 @@
-# MMOSkillTranslationsPack - pt-BR
-# Consolidated translation file. Hytale's I18nModule prepends
-# 'mmoskilltree.' to every key; LocalizationConfig strips it at lookup.
-
-
-# === from abilities.lang ===
-
 ability.armed = {0} preparado — seu próximo ataque será potencializado.
 ability.armed_consumed.fallback = Ataque potencializado
 ability.marked = {0} aplicado! Ataques subsequentes causarão dano bônus.
 ability.aura_armed = {0} reuniu {1} aliado(s) — o próximo ataque deles é potencializado.
-
-# === from content.lang ===
-
 achievement.category.quests = Missões
-
-# === from skills.lang ===
-
 reward.preview.locked = BLOQUEADO
 reward.preview.requires_level = Nv {0}
 reward.preview.unlocks_at = Desbloqueia no nível {0}
@@ -131,9 +118,6 @@ reward.cape.fishing = Fishing Mastery Cape
 reward.cape.magic = Magic Mastery Cape
 reward.cape.artillery = Artillery Mastery Cape
 reward.cape.master = Master Cape
-
-# === from system.lang ===
-
 language.name = Português
 notify.xp_gain = +{0} XP de {1}
 notify.xp_gain_bonus = +{0} XP de {1} (+{2}% bônus)
@@ -311,9 +295,6 @@ cmd.quest.complete_offline = Jogador ''{0}'' está offline. {1} recompensa(s) na
 cmd.quest.status_usage = Uso: /mmoquestadmin status <jogador> [questId]
 cmd.quest.status_header = === Status de Missões: {0} ===
 cmd.quest.status_none = Sem dados de missão.
-
-# === from ui.lang ===
-
 ui.button.close = FECHAR
 ui.button.back = < VOLTAR
 ui.button.on = SIM
@@ -676,5 +657,3 @@ ui.npc_quest.quest_count = {0} Missões
 ui.quests.btn_turn_in = Entregar
 ui.npc_quest.turn_in_fail = Não há suficiente {0} ({1}/{2})
 ui.quests.turn_in_at_npc = Entregar em {0}
-
-# 659 keys; 0 empty-value lines dropped.

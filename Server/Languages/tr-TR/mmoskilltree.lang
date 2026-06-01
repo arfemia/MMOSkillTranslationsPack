@@ -1,21 +1,8 @@
-# MMOSkillTranslationsPack - tr-TR
-# Consolidated translation file. Hytale's I18nModule prepends
-# 'mmoskilltree.' to every key; LocalizationConfig strips it at lookup.
-
-
-# === from abilities.lang ===
-
 ability.armed = {0} hazır — sonraki vuruşunuz güçlendirilecek.
 ability.armed_consumed.fallback = Güçlendirilmiş Vuruş
 ability.marked = {0} uygulandı! Sonraki vuruşlar bonus hasar verecek.
 ability.aura_armed = {0} {1} müttefiki harekete geçirdi — sonraki vuruşları güçlendirildi.
-
-# === from content.lang ===
-
 achievement.category.quests = Görevler
-
-# === from skills.lang ===
-
 reward.preview.locked = KİLİTLİ
 reward.preview.requires_level = Sv {0}
 reward.preview.unlocks_at = Seviye {0}'da açılır
@@ -131,9 +118,6 @@ reward.cape.fishing = Fishing Mastery Cape
 reward.cape.magic = Magic Mastery Cape
 reward.cape.artillery = Artillery Mastery Cape
 reward.cape.master = Master Cape
-
-# === from system.lang ===
-
 language.name = Türkçe
 notify.xp_gain = +{0} {1} XP
 notify.xp_gain_bonus = +{0} {1} XP (+{2}% bonus)
@@ -311,9 +295,6 @@ cmd.quest.complete_offline = Oyuncu ''{0}'' çevrimdışı. {1} ödül bağlanma
 cmd.quest.status_usage = Kullanım: /mmoquestadmin status <oyuncu> [questId]
 cmd.quest.status_header = === Görev Durumu: {0} ===
 cmd.quest.status_none = Görev verisi yok.
-
-# === from ui.lang ===
-
 ui.button.close = KAPAT
 ui.button.back = < GERİ
 ui.button.on = AÇIK
@@ -676,5 +657,3 @@ ui.npc_quest.quest_count = {0} Görev
 ui.quests.btn_turn_in = Teslim Et
 ui.npc_quest.turn_in_fail = Yeterli {0} yok ({1}/{2})
 ui.quests.turn_in_at_npc = {0} adresinde teslim et
-
-# 659 keys; 0 empty-value lines dropped.

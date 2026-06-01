@@ -1,17 +1,7 @@
-# MMOSkillTranslationsPack - de-DE
-# Consolidated translation file. Hytale's I18nModule prepends
-# 'mmoskilltree.' to every key; LocalizationConfig strips it at lookup.
-
-
-# === from abilities.lang ===
-
 ability.armed = {0} geladen — dein nächster Treffer wird verstärkt.
 ability.armed_consumed.fallback = Verstärkter Treffer
 ability.marked = {0} aufgetragen! Folgetreffer verursachen Bonusschaden.
 ability.aura_armed = {0} hat {1} Verbündete angefeuert — ihr nächster Treffer ist verstärkt.
-
-# === from content.lang ===
-
 achievement.unlocked = Erfolg freigeschaltet: {0}
 achievement.points_awarded = +{0} Erfolgspunkte
 achievement.point_milestone_claimed = Meilenstein erreicht: {0} ({1} Punkte)
@@ -28,9 +18,6 @@ achievement.category.misc = Miscellaneous
 quest.requires_achievement = Erfolg freischalten: {0}
 achievement.server_first_lost = Server First lost for {0} — another player claimed it.
 achievement.server_first_won = You won Server First: {0}!
-
-# === from skills.lang ===
-
 reward.preview.locked = GESPERRT
 reward.preview.requires_level = Lv {0}
 reward.preview.unlocks_at = Freigeschaltet bei Stufe {0}
@@ -147,9 +134,6 @@ reward.cape.fishing = Fishing Mastery Cape
 reward.cape.magic = Magic Mastery Cape
 reward.cape.artillery = Artillery Mastery Cape
 reward.cape.master = Master Cape
-
-# === from system.lang ===
-
 language.name = Deutsch
 notify.xp_gain = +{0} {1} XP
 notify.xp_gain_bonus = +{0} {1} XP (+{2}% Bonus)
@@ -334,9 +318,6 @@ notify.achievement.pinned = Pinned: {0}
 notify.achievement.unpinned = Unpinned: {0}
 notify.quest.tracked = Tracking: {0}
 notify.quest.untracked = Untracked: {0}
-
-# === from ui.lang ===
-
 ui.button.close = SCHLIESSEN
 ui.button.back = < ZURÜCK
 ui.button.on = AN
@@ -788,5 +769,3 @@ ui.viewxp.tracked_quests_title = TRACKED QUESTS
 ui.viewxp.tracked_quests_empty = Track quests from the Quests page to see them here.
 ui.quests.track_cap_reached = You can only track {0} quests at a time.
 ui.settings.tab = Settings
-
-# 771 keys; 0 empty-value lines dropped.
