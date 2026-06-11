@@ -1,5 +1,7 @@
 # CLAUDE.md - MMOSkillTranslationsPack
 
+> **DEPRECATED — not maintained.** This pack was never published. All MMOSkillTree translations (all 9 languages) now ship bundled inside the mod jar at `Server/Languages/<bcp47>/mmoskilltree.lang`. Do not add or edit translations here; edit the jar's `.lang` files in the main MMOSkillTree repo. This working tree is kept for reference only.
+
 This directory is a standalone Hytale content pack that ships translations for the [MMOSkillTree mod](https://www.curseforge.com/hytale/mmoskilltree). Translations live as standard Hytale `.lang` files; the mod's jar does not ship any non-English language defaults beyond `EnglishDefaults.java`.
 
 The pack is consumed natively by Hytale's `I18nModule` (`com.hypixel.hytale.server.core.modules.i18n.I18nModule`). No MMOSkillTree-specific asset type or custom merge handler is involved. The mod's `LocalizationConfig.lookupViaI18n` prepends a `"mmoskilltree."` prefix at the lookup boundary, which mirrors the prefix Hytale's loader prepends from the `mmoskilltree.lang` filename.
@@ -14,8 +16,7 @@ skill-translations-pack/
 ├── CURSEFORGE.md                                  CurseForge listing copy
 ├── LICENSE                                        MIT
 ├── MMOSkillTranslationsPack.zip                   built artifact (gitignored if you regenerate)
-├── tools/
-│   └── build.ps1                                  rebuild the zip
+├── build.ps1                                      rebuild the zip
 └── Server/
     └── Languages/                                 Hytale-native i18n path
         ├── es-ES/mmoskilltree.lang
@@ -35,11 +36,11 @@ One `mmoskilltree.lang` per locale.
 Same pattern as `../skill-mastery-pack/` plus one extra requirement: explicit directory entries inside the zip. Hytale's `I18nModule.loadMessagesFromPack` gates on `Files.isDirectory(pack.getRoot()/Server/Languages)`, and Java's `ZipFileSystem` returns `false` for that check when the zip has only file entries. The build script emits a directory entry for every ancestor path before writing each file.
 
 ```powershell
-pwsh skill-translations-pack/tools/build.ps1            # rebuild zip
-pwsh skill-translations-pack/tools/build.ps1 install    # rebuild + copy to D:\Games\Hytale\UserData\Mods\
+.\build.ps1                  # rebuild the zip, and install it if a Mods folder is known
+.\build.ps1 -Install:$false  # rebuild only, no copy
 ```
 
-Top-level docs (`CLAUDE.md`, `README.md`, `CURSEFORGE.md`), `LICENSE`, and `.gitignore` are excluded from the zip.
+`build.ps1` is self-locating and cross-platform (Windows PowerShell, or `pwsh ./build.ps1` on macOS/Linux). To auto-install on build, set `HYTALE_MODS_DIR` once to your Hytale `UserData/Mods` folder (or pass `-ModsDir <path>`); without it the script just builds the zip. Top-level docs (`CLAUDE.md`, `README.md`, `CURSEFORGE.md`), `LICENSE`, `.gitignore`, and `manifest.json` are excluded from the zip.
 
 ## `.lang` file conventions
 
@@ -130,8 +131,8 @@ A third-party pack contributing a new BCP 47 directory (e.g. `ko-KR`) will load 
 
 ## Verification
 
-1. Build the mod: `./gradlew build` from the parent directory (`..`).
-2. Build the pack zip: `pwsh tools/build.ps1 install` (also copies to the local Hytale mods folder).
+1. Build the mod: `./gradlew build` from the monorepo root, two levels up (`../../`).
+2. Build the pack zip: `.\build.ps1` (also copies to the local Hytale mods folder when `HYTALE_MODS_DIR` is set; pass `-Install:$false` to build only).
 3. Start the Hytale server. In the server log, look for one line per locale:
    ```
    [I18nModule|P] Loaded N entries for 'it-IT' from /Server/Languages
