@@ -1,5 +1,7 @@
 # MMOSkillTranslationsPack
 
+> **DEPRECATED — not maintained.** This pack was never published. All MMOSkillTree translations (all 9 languages) now ship bundled inside the mod jar at `Server/Languages/<bcp47>/mmoskilltree.lang`. Do not add or edit translations here; edit the jar's `.lang` files in the main MMOSkillTree repo. This working tree is kept for reference only.
+
 Community-maintained translations for the [MMO Skill Tree](https://www.curseforge.com/hytale/mmoskilltree) mod for Hytale.
 
 Ships 8 languages out of the box as standard Hytale `.lang` files:
@@ -68,14 +70,14 @@ The pack is open source. PRs welcome.
 3. Copy an existing language's `mmoskilltree.lang` (e.g. `Server/Languages/it-IT/mmoskilltree.lang`) into your new directory.
 4. Translate each value. Keep keys exactly as-is. `{0}`, `{1}` placeholders must stay in place (they're filled at runtime with names and numbers).
 5. Make sure your file includes `language.name = <native-name>` so the in-game language picker shows the native label.
-6. Rebuild the zip: `pwsh tools/build.ps1`
+6. Rebuild the zip: `.\build.ps1 -Install:$false` (or `pwsh ./build.ps1 -Install:$false` on macOS/Linux).
 7. Open a PR.
 
 Brand-new languages won't appear in the in-game picker by default. MMOSkillTree's picker lists a fixed known-language set (the 8 above plus English) plus any server-side admin owner files. The translations still load and serve any player whose Hytale client reports that locale. To make a new language pickable, an admin creates a matching empty `messages-<iso>.json` owner file on their server (the ISO 639-1 form of your locale, e.g. `messages-ko.json` for Korean).
 
 ### Improving an existing language
 
-Open the relevant `Server/Languages/<bcp47>/mmoskilltree.lang`, edit the values, rebuild the zip, open a PR.
+Open the relevant `Server/Languages/<bcp47>/mmoskilltree.lang`, edit the values, rebuild the zip (`.\build.ps1 -Install:$false`), open a PR.
 
 ### Per-key English fallback
 
@@ -109,8 +111,7 @@ skill-translations-pack/
 ├── CURSEFORGE.md                                  CurseForge listing copy
 ├── LICENSE                                        MIT
 ├── MMOSkillTranslationsPack.zip                   built artifact (gitignored)
-├── tools/
-│   └── build.ps1                                  rebuild the zip
+├── build.ps1                                      rebuild the zip
 └── Server/
     └── Languages/
         └── <bcp47>/mmoskilltree.lang              (8 locales)

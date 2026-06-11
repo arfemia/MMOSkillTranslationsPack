@@ -1,5 +1,7 @@
 # MMO Skill Translations Pack
 
+> **DEPRECATED — not maintained.** This pack was never published. All MMOSkillTree translations (all 9 languages) now ship bundled inside the mod jar at `Server/Languages/<bcp47>/mmoskilltree.lang`. Do not add or edit translations here; edit the jar's `.lang` files in the main MMOSkillTree repo. This working tree is kept for reference only.
+
 Community translations for the **MMO Skill Tree** mod — Spanish, French, German, Italian, Portuguese, Russian, Hungarian, Turkish.
 
 ## What is it?
