@@ -2,7 +2,7 @@
 
 > **DEPRECATED — not maintained.** This pack was never published. All MMOSkillTree translations (all 9 languages) now ship bundled inside the mod jar at `Server/Languages/<bcp47>/mmoskilltree.lang`. Do not add or edit translations here; edit the jar's `.lang` files in the main MMOSkillTree repo. This working tree is kept for reference only.
 
-Community-maintained translations for the [MMO Skill Tree](https://www.curseforge.com/hytale/mmoskilltree) mod for Hytale.
+Community-maintained translations for the [MMO Skill Tree](https://www.curseforge.com/hytale/mods/mmo-skill-tree) mod for Hytale.
 
 Ships 8 languages out of the box as standard Hytale `.lang` files:
 

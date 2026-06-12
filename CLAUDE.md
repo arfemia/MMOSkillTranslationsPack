@@ -2,7 +2,7 @@
 
 > **DEPRECATED — not maintained.** This pack was never published. All MMOSkillTree translations (all 9 languages) now ship bundled inside the mod jar at `Server/Languages/<bcp47>/mmoskilltree.lang`. Do not add or edit translations here; edit the jar's `.lang` files in the main MMOSkillTree repo. This working tree is kept for reference only.
 
-This directory is a standalone Hytale content pack that ships translations for the [MMOSkillTree mod](https://www.curseforge.com/hytale/mmoskilltree). Translations live as standard Hytale `.lang` files; the mod's jar does not ship any non-English language defaults beyond `EnglishDefaults.java`.
+This directory is a standalone Hytale content pack that ships translations for the [MMOSkillTree mod](https://www.curseforge.com/hytale/mods/mmo-skill-tree). Translations live as standard Hytale `.lang` files; the mod's jar does not ship any non-English language defaults beyond `EnglishDefaults.java`.
 
 The pack is consumed natively by Hytale's `I18nModule` (`com.hypixel.hytale.server.core.modules.i18n.I18nModule`). No MMOSkillTree-specific asset type or custom merge handler is involved. The mod's `LocalizationConfig.lookupViaI18n` prepends a `"mmoskilltree."` prefix at the lookup boundary, which mirrors the prefix Hytale's loader prepends from the `mmoskilltree.lang` filename.
 
