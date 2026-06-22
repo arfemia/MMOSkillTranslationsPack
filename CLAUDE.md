@@ -50,7 +50,7 @@ Same pattern as `../skill-mastery-pack/` plus one extra requirement: explicit di
 
 ### Why `mmoskilltree.lang` (not `messages.lang` or split by namespace)
 
-Hytale's `I18nModule.loadMessagesFrom` does this (verified in the decompiled `loadMessagesFrom` / `getPrefix` of `I18nModule`):
+Hytale's `I18nModule.loadMessagesFrom` does this (read `loadMessagesFrom` / `getPrefix` in `hytale-shared-source/HytaleServer/CoreServer/src/main/java/com/hypixel/hytale/server/core/modules/i18n/I18nModule.java`):
 
 ```java
 String prefix = name.substring(0, name.length() - ".lang".length());  // filename minus .lang
